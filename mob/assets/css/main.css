@@ -1,3 +1,87 @@
+.xm-scroll .slick-slider .slick-list,
+.xm-scroll .slick-slider .slick-slider,
+.xm-scroll .slick-slider .slick-track {
+  display: block;
+}
+.xm-scroll .slick-slider .slick-slider {
+  position: relative;
+}
+.xm-scroll .slick-slider .slick-list {
+  overflow: hidden;
+}
+.xm-scroll .slick-slider .slick-slide {
+  display: block;
+  float: left;
+  height: 100%;
+  touch-action: pan-y;
+}
+.xm-scroll .slick-slider .slick-dots {
+  bottom: 16px;
+  display: flex !important;
+  flex-basis: auto;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+}
+.xm-scroll .slick-slider .slick-dots li {
+  margin: 0 5px;
+  overflow: hidden;
+}
+.xm-scroll .slick-slider .slick-dots li > button {
+  border: 0;
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+.xm-scroll .slick-slider .slick-dots li.slick-active > button {
+  background-color: #b0b0b0;
+}
+.xm-scroll .slick-slider,
+.xm-scroll .slick-slider .slick-list,
+.xm-scroll .slick-slider .slick-slide div,
+.xm-scroll .slick-slider .slick-slide div img {
+  height: 100%;
+}
+.xm-scroll .slick-slider .slick-dots li > button {
+  border-radius: 50%;
+  height: 10px;
+  padding: 0;
+  text-indent: -9999px;
+  width: 10px;
+}
+.xm-scroll .slick-slider .slick-arrow {
+  border: 0;
+  height: 69px;
+  position: absolute;
+  text-indent: -9999px;
+  width: 41px;
+  z-index: 10;
+}
+.xm-scroll .slick-slider .slick-prev {
+  background: url(//i01.appmifile.com/webfile/globalimg/zh/2014/icon/icon-slides.png)
+    no-repeat;
+  background-position: 0;
+  cursor: pointer;
+  left: 5%;
+  margin-top: -35px;
+  top: 50%;
+}
+.xm-scroll .slick-slider .slick-next {
+  background: url(//i01.appmifile.com/webfile/globalimg/zh/2014/icon/icon-slides.png)
+    no-repeat;
+  background-position: -42px;
+  cursor: pointer;
+  margin-top: -35px;
+  right: 5%;
+  top: 50%;
+}
+.xm-scroll .slick-slider .slick-slide > div img {
+  vertical-align: top;
+}
+
+
+
+
 .div1.fly-birds-page_465e4ef82d {
   align-items: flex-start;
   box-sizing: border-box;
