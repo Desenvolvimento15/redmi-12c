@@ -1,7 +1,7 @@
 $(function (){
-    $('.galeria').slick({
-    slidesToShow: 3,
-    slidesToScroll: 3,
+    $('.mobile').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
     dots: true,
     autoplay: true,
     infinite: true,
