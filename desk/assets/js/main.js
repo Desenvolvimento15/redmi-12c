@@ -1,5 +1,5 @@
 $(function (){
-    
+
     $(".galeria").slick({
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -11,7 +11,7 @@ $(function (){
     });
 
     $(".galeria").on('afterChange', function(){
-       $("#ofdtvai229").text( $(".slick-center").data("name"));
+    $("#ofdtvai229").text( $(".slick-center").data("name"));
    
     });
 
