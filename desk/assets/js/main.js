@@ -1,5 +1,6 @@
 $(function (){
-    $('.galeria').slick({
+    
+    $(".galeria").slick({
     slidesToShow: 1,
     slidesToScroll: 1,
     dots: true,
@@ -8,4 +9,15 @@ $(function (){
     speed: 300,
     adaptiveHeight: true,
     });
+
+    $(".galeria").on('afterChange', function(){
+       $("#ofdtvai229").text( $(".slick-center").data("name"));
+   
+    });
+
+
+
+    
+
+
 })
