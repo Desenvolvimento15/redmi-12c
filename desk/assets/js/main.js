@@ -12,7 +12,6 @@ $(function (){
 
     $(".galeria").on('afterChange', function(){
     $("#ofdtvai229").text( $(".slick-center").data("name"));
-   
     });
 
 
